@@ -1,4 +1,23 @@
-@keyframes .main{
-  from {background-color: purple;}
-  to {background-color: blue;}
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.main{
+  background: linear-gradient(#e66465, #9198e5);
+  position: relative;
+  animation: animationBackground 20s infinite;
+}
+
+@keyframes animationBackground {
+	0%{
+		background-position:0% 50%
+	}
+    50%{
+    	background-position:100% 50%
+    }
+    100%{
+    	background-position:0% 50%
+    }
 }
