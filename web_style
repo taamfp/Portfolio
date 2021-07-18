@@ -1,0 +1,4 @@
+@keyframes .main{
+  from {background-color: purple;}
+  to {background-color: blue;}
+}
