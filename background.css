@@ -9,7 +9,7 @@ body{
   width: 100%;
   height: 100vh;
   color: #fff;
-  background: linear-gradient(to right, #e66465, #9198e5, #1da7db);
+  background: linear-gradient(to right, #e66465, #9198e5);
   background-size: 400%, 400%;
   position: relative;
   animation: animationBackground 30s ease infinite;
@@ -18,12 +18,44 @@ body{
 h1{
     font-size: 3rem;
     font-family:Arial, Helvetica, sans-serif;
-    border: 3px solid;
+    text-shadow: 0 0 25px blue;
     position: absolute;
     top: 10%;
+    left: 50%;
+    transform: translate(-45%, -45%);
+    padding: 0.5rem 0.5rem; 
+}
+
+h2{
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 18%;
     left: 49%;
     transform: translate(-45%, -45%);
     padding: 0.5rem 0.5rem; 
+}
+
+
+h3{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    box-shadow: 5px 5px 3px 1px #907
+}
+
+h4{
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    box-shadow: 5px 5px 3px 1px #907
+}
+
+hr.solid{
+    position: absolute;
+    top: 73%;
+    left: 37%;
 }
 
 
@@ -42,7 +74,7 @@ h1{
 
 .fa-linkedin:before{
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 49%;
     margin-left: -45px;
     font-size: 30px;
@@ -51,12 +83,12 @@ h1{
 
 .links ul li .fa-linkedin:hover{
     transform: translate(0, 10%);
-
 }
 
 .fa-github:before{
     position: absolute;
-    top: 70%;
+    color: white;
+    top: 75%;
     left: 49%;
     margin-right: -45px;
     font-size: 30px;
@@ -70,7 +102,8 @@ h1{
 
 .fa-twitter:before{
     position: absolute;
-    top: 70%;
+    color: #1DA1F2;
+    top: 75%;
     left: 49%;
     margin-left: 47px;
     font-size: 30px;
@@ -79,7 +112,6 @@ h1{
 
 .links ul li .fa-twitter:hover{
     transform: translate(0, 10%);
-
 }
 
 
