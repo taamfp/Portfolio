@@ -9,7 +9,7 @@ body{
   width: 100%;
   height: 100vh;
   color: #fff;
-  background: linear-gradient(to right, #e66465, #9198e5);
+  background: linear-gradient(to right, #7B68EE, #4B0082);
   background-size: 400%, 400%;
   position: relative;
   animation: animationBackground 30s ease infinite;
@@ -18,7 +18,7 @@ body{
 h1{
     font-size: 3rem;
     font-family:Arial, Helvetica, sans-serif;
-    text-shadow: 0 0 25px blue;
+    text-shadow: 0 0 25px #FF00FF;
     position: absolute;
     top: 10%;
     left: 50%;
@@ -42,20 +42,20 @@ h3{
     position: absolute;
     top: 30%;
     left: 30%;
-    box-shadow: 5px 5px 3px 1px #907
+    box-shadow: 5px 5px 3px 1px #00FFFF
 }
 
 h4{
     position: absolute;
     top: 30%;
     left: 53%;
-    box-shadow: 5px 5px 3px 1px #907
+    box-shadow: 5px 5px 3px 1px #00FFFF
 }
 
 hr.solid{
     position: absolute;
     top: 73%;
-    left: 37%;
+    left: 39%;
 }
 
 
@@ -74,6 +74,7 @@ hr.solid{
 
 .fa-linkedin:before{
     position: absolute;
+    color: #0000FF;
     top: 75%;
     left: 49%;
     margin-left: -45px;
